@@ -60,10 +60,6 @@ See the README in each version's folder for specific installation and usage inst
 
 ---
 
-## Contributing
-
-Contributions to either version are welcome! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
