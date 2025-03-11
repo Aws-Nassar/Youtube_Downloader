@@ -9,7 +9,7 @@ class YouTubeDownloaderApp:
     def __init__(self, root):
         self.root = root
         self.root.title("YouTube Downloader")
-        self.root.geometry("800x600")
+        self.root.state('zoomed')
         
         self.playlist_entries = []
         self.selected_items = []
