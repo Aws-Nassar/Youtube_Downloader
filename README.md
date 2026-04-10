@@ -1,65 +1,19 @@
 # YouTube Downloader Project 📺
 
-Welcome to the YouTube Downloader project! This repository contains two different implementations of a YouTube video and playlist downloader:
+A simple desktop application to download videos from YouTube. Choose between a standalone executable or run the Python script directly.
 
-## Available Versions
+## Description
 
-### 1. Console-Based Downloader 🖥️
+This project provides a user-friendly interface for downloading YouTube videos using `yt-dlp` and `customtkinter`. Two options are available:
+- **Option 1**: Run the pre-built `app.exe` (Windows).
+- **Option 2**: Run the Python script `app.py` (requires Python environment).
 
-The original command-line interface version with text-based prompts and outputs.
+## Installation
 
-**Features:**
-- Lightweight and efficient
-- Works on systems without graphical interfaces
-- Can be automated with scripts
-- Perfect for power users and servers
+1. **FFmpeg Requirement**  
+   Install [FFmpeg](https://ffmpeg.org/download.html) and add it to your system's `PATH` environment variable.
 
-**Location:** [/console-version](/console-version)
-
-### 2. GUI-Based Downloader 🪟
-
-A graphical user interface version with visual elements and intuitive controls.
-
-**Features:**
-- User-friendly interface
-- Visual progress tracking
-- Easy video/playlist selection
-- Drag and drop URL functionality
-- Settings configuration panel
-
-**Location:** [/gui-version](/gui-version)
-
-## Which Version Should You Choose?
-
-### Choose the Console Version if:
-- You prefer command-line tools
-- You're running on a headless server
-- You want to incorporate the downloader into scripts or automation
-- You need maximum performance with minimal resource usage
-
-### Choose the GUI Version if:
-- You prefer visual interfaces
-- You want an easier learning curve
-- You need to manage multiple downloads visually
-- You want access to visual configuration options
-
-## Requirements
-
-Both versions share the same core dependencies:
-- Python 3.6+
-- yt-dlp
-- FFmpeg (recommended)
-
-See the README in each version's folder for specific installation and usage instructions.
-
-## Getting Started
-
-1. Clone this repository
-2. Navigate to your preferred version's folder
-3. Follow the setup instructions in that version's README.md file
-
----
-
-## License
-
-This project is licensed under the MIT License.
+2. **For Python Version (Option 2)**  
+   Install the required Python packages:
+   ```bash
+   pip install yt-dlp customtkinter   
